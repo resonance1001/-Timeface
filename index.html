@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>강릉 2박 3일 완벽 여행 가이드</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #F0F4F8;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+        .flow-line {
+            width: 2px;
+            background-color: #4A90E2;
+            flex-grow: 1;
+        }
+        .flow-dot {
+            width: 20px;
+            height: 20px;
+            background-color: #4A90E2;
+            border: 4px solid #D4E6F1;
+        }
+        .icon-text {
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <header class="bg-gradient-to-r from-[#4A90E2] to-[#50E3C2] text-white text-center p-8 shadow-lg">
+        <h1 class="text-4xl md:text-5xl font-black mb-2">8월의 강릉, 완벽한 2박 3일</h1>
+        <p class="text-lg">미식, 휴양, 문화를 아우르는 최고의 여름 휴가 (8월 11일 ~ 8월 13일)</p>
+    </header>
+
+    <main class="container mx-auto p-4 md:p-8">
+
+        <section id="overview" class="mb-12">
+            <div class="bg-white rounded-lg shadow-xl p-6 md:p-8">
+                <h2 class="text-3xl font-bold text-[#4A90E2] mb-4 border-b-4 border-[#50E3C2] pb-2">여행 개요: 스마트 전략</h2>
+                <p class="mb-6">8월 극성수기 강릉 여행의 성공은 '전략'에 달려있습니다. 이 일정은 지리적 동선을 최적화하고, 평일의 이점을 활용하여 대기 시간을 최소화하는 데 초점을 맞췄습니다. '강릉 컨피덴스 오션 스위트'의 위치를 십분 활용하여 북부, 중남부, 남부를 차례로 탐험합니다.</p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+                    <div class="bg-blue-50 p-6 rounded-lg">
+                        <p class="icon-text">📍</p>
+                        <h3 class="text-xl font-bold mt-2">지역 묶기</h3>
+                        <p class="mt-1 text-gray-600">1일차(북부), 2일차(중부), 3일차(남부)로 동선 낭비 최소화</p>
+                    </div>
+                    <div class="bg-green-50 p-6 rounded-lg">
+                        <p class="icon-text">📱</p>
+                        <h3 class="text-xl font-bold mt-2">스마트 기술</h3>
+                        <p class="mt-1 text-gray-600">실시간 교통정보 앱과 '테이블링' 원격 줄서기 적극 활용</p>
+                    </div>
+                    <div class="bg-yellow-50 p-6 rounded-lg">
+                        <p class="icon-text">📅</p>
+                        <h3 class="text-xl font-bold mt-2">평일 공략</h3>
+                        <p class="mt-1 text-gray-600">인기 맛집과 명소는 인파가 적은 월/화요일에 방문</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="day1" class="mb-12">
+            <h2 class="text-3xl font-bold text-center mb-2"><span class="text-[#4A90E2]">DAY 1</span> (일)</h2>
+            <p class="text-xl text-center text-gray-600 mb-8">북부 해안선의 맛과 멋</p>
+            <div class="flex">
+                <div class="flex flex-col items-center mr-4">
+                    <div class="flow-dot rounded-full"></div>
+                    <div class="flow-line"></div>
+                </div>
+                <div class="w-full bg-white rounded-lg shadow-xl p-6 mb-8">
+                    <h3 class="text-2xl font-bold text-[#4A90E2]">오후: 도착 & 늦은 점심</h3>
+                    <p class="text-gray-700 mt-2">숙소 체크인 전, 강릉 물회의 성지 '사천 물회마을'에서 여행의 첫 식사를 시작합니다. 극심한 대기가 예상되는 주말이므로 현명한 선택이 필요합니다.</p>
+                    <div class="mt-4 p-4 bg-gray-50 rounded-lg">
+                        <h4 class="font-bold">🎯 물회 맛집 선택 가이드</h4>
+                        <p class="text-sm text-gray-600">'장안횟집'이 가장 유명하지만, 대기가 길다면 바로 옆 '사천항주문진물회'나 현지인 추천 '사천진리물회'도 훌륭한 대안입니다. 맛의 차이보다 기다림의 차이가 더 클 수 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="flex flex-col items-center mr-4">
+                    <div class="flow-dot rounded-full"></div>
+                    <div class="flow-line"></div>
+                </div>
+                <div class="w-full bg-white rounded-lg shadow-xl p-6 mb-8">
+                    <h3 class="text-2xl font-bold text-[#4A90E2]">오후: 해안 드라이브</h3>
+                    <p class="text-gray-700 mt-2">사천에서 주문진까지 해안도로를 따라 드라이브를 즐깁니다. 드라마 '도깨비' 촬영지와 동해안 최대 규모의 주문진 수산시장을 둘러보며 활기찬 어촌의 분위기를 느껴보세요.</p>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="flex flex-col items-center mr-4">
+                    <div class="flow-dot rounded-full"></div>
+                </div>
+                <div class="w-full bg-white rounded-lg shadow-xl p-6">
+                    <h3 class="text-2xl font-bold text-[#4A90E2]">저녁: 사천진의 일몰</h3>
+                    <p class="text-gray-700 mt-2">숙소 근처의 한적한 사천진해변에서 아름다운 일몰을 감상하며 첫날을 마무리합니다. 저녁은 따뜻한 생선구이('전라도집')나 푸짐한 해물라면('바닷가라면')으로 여유롭게 즐기세요.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="day2" class="mb-12">
+            <h2 class="text-3xl font-bold text-center mb-2"><span class="text-[#4A90E2]">DAY 2</span> (월)</h2>
+            <p class="text-xl text-center text-gray-600 mb-8">강릉의 문화와 미식 심장부 탐험</p>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="bg-white rounded-lg shadow-xl p-6">
+                    <h3 class="text-2xl font-bold text-[#4A90E2] mb-4">오전: 초당 순두부 대전</h3>
+                    <p class="mb-4">평일 오전을 활용해 강릉 아침 식사의 정석, 초당 순두부를 맛봅니다. '테이블링' 앱을 활용하면 '동화가든'의 긴 대기를 피할 수 있습니다.</p>
+                    <div class="chart-container h-64 md:h-80">
+                        <canvas id="sundubuChart"></canvas>
+                    </div>
+                    <p class="text-center text-sm text-gray-500 mt-2">취향에 따라 짬뽕순두부(트렌디)와 맑은 순두부(전통) 중 선택하세요.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-xl p-6">
+                    <h3 class="text-2xl font-bold text-[#4A90E2] mb-4">점심: 꼬막비빔밥 정복</h3>
+                    <p class="mb-4">강릉 미식의 아이콘, '엄지네포장마차'의 꼬막무침비빔밥을 맛볼 시간입니다. 넓은 주차장과 대기 시스템이 잘 갖춰져 있습니다.</p>
+                     <div class="bg-green-100 border-l-4 border-green-500 text-green-700 p-4 rounded-lg mt-6">
+                        <h4 class="font-bold">엄지네 공략 TIP</h4>
+                        <ul class="list-disc list-inside mt-2">
+                            <li>도착 즉시 번호표부터 발급받기</li>
+                            <li>본점 대기가 길면 1호점 확인하기</li>
+                            <li>포장(테이크아웃)도 훌륭한 대안</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-xl p-6 lg:col-span-2">
+                    <h3 class="text-2xl font-bold text-[#4A90E2] mb-4">오후: 해변 선택 가이드</h3>
+                    <p class="mb-6">점심 식사 후에는 취향에 따라 강릉의 대표 해변에서 여유를 즐깁니다. 활기찬 분위기를 원한다면 경포해변, 커피와 함께하는 낭만을 원한다면 안목해변으로 향하세요.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="border-2 border-dashed border-blue-300 p-4 rounded-lg text-center">
+                            <h4 class="text-xl font-bold">🌊 경포해변</h4>
+                            <p class="mt-2">넓은 백사장, 해양 액티비티, 활기찬 분위기</p>
+                        </div>
+                        <div class="border-2 border-dashed border-green-300 p-4 rounded-lg text-center">
+                            <h4 class="text-xl font-bold">☕ 안목해변 커피거리</h4>
+                            <p class="mt-2">바다 전망 카페, 다양한 디저트, 낭만적인 휴식</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="day3" class="mb-12">
+            <h2 class="text-3xl font-bold text-center mb-2"><span class="text-[#4A90E2]">DAY 3</span> (화)</h2>
+            <p class="text-xl text-center text-gray-600 mb-8">남부 해안의 예술과 커피 향기</p>
+             <div class="space-y-8">
+                <div class="bg-white rounded-lg shadow-xl p-6">
+                    <h3 class="text-2xl font-bold text-[#4A90E2]">오전: 하슬라아트월드</h3>
+                    <p class="mt-2 text-gray-700">체크아웃 후, 자연과 예술이 결합된 절벽 위 복합문화공간 '하슬라아트월드'를 방문합니다. 바다를 배경으로 한 야외 조각공원은 최고의 포토 스팟입니다. 관람에는 약 2~3시간이 소요됩니다.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-xl p-6">
+                    <h3 class="text-2xl font-bold text-[#4A90E2]">점심: 막국수 맛집 탐방</h3>
+                    <p class="mt-2 text-gray-700">여행의 마지막 식사는 시원한 막국수입니다. '삼교리 동치미 막국수 본점'은 화요일 휴무이므로, 검증된 대안을 선택해야 합니다.</p>
+                     <div class="mt-4 p-4 bg-yellow-100 border-l-4 border-yellow-500 rounded-lg">
+                        <h4 class="font-bold">🚨 중요 정보: 화요일 휴무</h4>
+                        <p class="text-sm">많은 여행객이 찾는 '삼교리 동치미 막국수 본점'은 화요일 휴무입니다. 대신 주문진의 '대동면옥 본점'이나 '삼교리 동치미 막국수 주문진점'을 방문하세요.</p>
+                    </div>
+                </div>
+                 <div class="bg-white rounded-lg shadow-xl p-6">
+                    <h3 class="text-2xl font-bold text-[#4A90E2]">오후: 테라로사 커피공장</h3>
+                    <p class="mt-2 text-gray-700">대한민국 스페셜티 커피의 성지, '테라로사 커피공장 본점'에서 여행을 마무리합니다. 웅장한 공간에서 최상급 핸드드립 커피를 맛보며 강릉의 추억을 정리하는 시간을 가져보세요. 고속도로 진입로와 가까워 귀갓길 동선도 편리합니다.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="plan-b" class="mb-12">
+            <div class="bg-gray-700 text-white rounded-lg shadow-xl p-6 md:p-8">
+                <h2 class="text-3xl font-bold text-[#50E3C2] mb-4 border-b-4 border-[#4A90E2] pb-2">Plan B: 비 오는 날을 위한 실내 코스</h2>
+                <p class="mb-6">변덕스러운 여름 날씨에도 걱정 없습니다. 비가 온다면 아래의 실내 명소들로 강릉의 또 다른 매력을 발견해보세요.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-gray-800 p-4 rounded-lg text-center">
+                        <p class="icon-text">🎨</p>
+                        <h4 class="font-bold mt-2">아르떼뮤지엄</h4>
+                        <p class="text-sm text-gray-300">몰입형 미디어아트</p>
+                    </div>
+                    <div class="bg-gray-800 p-4 rounded-lg text-center">
+                        <p class="icon-text">🐠</p>
+                        <h4 class="font-bold mt-2">경포 아쿠아리움</h4>
+                        <p class="text-sm text-gray-300">신비로운 바닷속 탐험</p>
+                    </div>
+                    <div class="bg-gray-800 p-4 rounded-lg text-center">
+                        <p class="icon-text">🖼️</p>
+                        <h4 class="font-bold mt-2">하슬라아트월드</h4>
+                        <p class="text-sm text-gray-300">실내 미술관 관람</p>
+                    </div>
+                    <div class="bg-gray-800 p-4 rounded-lg text-center">
+                        <p class="icon-text">🍺</p>
+                        <h4 class="font-bold mt-2">버드나무 브루어리</h4>
+                        <p class="text-sm text-gray-300">수제 맥주 즐기기</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center p-4 bg-gray-800 text-white">
+        <p>안전하고 즐거운 강릉 여행 되시길 바랍니다!</p>
+    </footer>
+
+    <script>
+        const wrapLabel = (label) => {
+            if (label.length > 16) {
+                const words = label.split(' ');
+                let currentLine = '';
+                const lines = [];
+                words.forEach(word => {
+                    if ((currentLine + ' ' + word).length > 16) {
+                        lines.push(currentLine);
+                        currentLine = word;
+                    } else {
+                        currentLine += (currentLine ? ' ' : '') + word;
+                    }
+                });
+                lines.push(currentLine);
+                return lines;
+            }
+            return label;
+        };
+
+        const sundubuCtx = document.getElementById('sundubuChart').getContext('2d');
+        new Chart(sundubuCtx, {
+            type: 'bar',
+            data: {
+                labels: ['동화가든 (짬뽕순두부)', '초당할머니순두부', '초당고부순두부 (현지인 추천)'].map(wrapLabel),
+                datasets: [{
+                    label: '예상 대기 시간 (분, 평일 오전 기준)',
+                    data: [40, 20, 10],
+                    backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56'],
+                    borderColor: ['#FF6384', '#36A2EB', '#FFCE56'],
+                    borderWidth: 1
+                },
+                {
+                    label: '매운맛 지수 (1-5)',
+                    data: [4, 3, 1],
+                    backgroundColor: 'rgba(75, 192, 192, 0.6)',
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                },
+                plugins: {
+                    title: {
+                        display: true,
+                        text: '초당 순두부 맛집 비교'
+                    },
+                    tooltip: {
+                        callbacks: {
+                            title: function(tooltipItems) {
+                                const item = tooltipItems[0];
+                                let label = item.chart.data.labels[item.dataIndex];
+                                if (Array.isArray(label)) {
+                                  return label.join(' ');
+                                } else {
+                                  return label;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
